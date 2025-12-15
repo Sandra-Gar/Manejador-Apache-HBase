@@ -110,7 +110,7 @@ list
 describe 'users'
 \`\`\`
 
-## 📖 Uso de la Aplicación
+## Uso de la Aplicación
 
 ### Interfaz Web
 
@@ -173,7 +173,7 @@ curl http://localhost:3000/api/hbase/batch
 curl http://localhost:3000/api/hbase/timeseries
 \`\`\`
 
-## 🏗️ Arquitectura HBase
+## Arquitectura HBase
 
 ### Estructura de la Tabla
 
@@ -201,7 +201,7 @@ Column Families:
 4. **Timestamps**: Cada celda mantiene múltiples versiones
 5. **Versioning**: Configurado con MAX_VERSIONS
 
-## 📸 Capturas de Pantalla
+## Capturas de Pantalla
 
 ### Pantalla Principal
 - Interfaz con tabs para cada operación CRUD
@@ -217,7 +217,7 @@ Column Families:
 - Batch operations con 5 usuarios de prueba
 - Time-series con visualización de versiones
 
-## 🔧 Scripts y Comandos
+## Scripts y Comandos
 
 ### Comandos HBase Shell
 
@@ -251,7 +251,7 @@ disable 'users'
 drop 'users'
 \`\`\`
 
-## 🎓 Conceptos Avanzados Demostrados
+## Conceptos Avanzados Demostrados
 
 ### 1. Column Families
 - Organización física de datos
@@ -268,14 +268,14 @@ drop 'users'
 - Mejor rendimiento en escrituras masivas
 - Mantiene consistencia ACID
 
-## 📚 Recursos Adicionales
+## Recursos Adicionales
 
 - [Apache HBase Documentation](https://hbase.apache.org/book.html)
 - [HBase Architecture](https://hbase.apache.org/book.html#architecture)
 - [HBase Shell Commands](https://hbase.apache.org/book.html#shell)
 - [Column Family Design](https://hbase.apache.org/book.html#columnfamily)
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Problema: HBase no inicia
 \`\`\`bash
@@ -295,14 +295,14 @@ tail -f logs/hbase-*.log
 - Verificar configuración en hbase-site.xml
 - Verificar Zookeeper: debe estar activo
 
-## 📝 Notas de Implementación
+## Notas de Implementación
 
 - **Demo Mode**: Este proyecto usa una simulación en memoria para facilitar la demostración
 - **Producción**: Para usar HBase real, implementar cliente usando hbase-rpc-client o REST API
 - **Escalabilidad**: HBase está diseñado para manejar petabytes de datos distribuidos
 - **Consistency**: HBase proporciona consistencia fuerte a nivel de row
 
-## 👨‍💻 Desarrollo
+## Desarrollo
 
 ### Estructura del proyecto
 
@@ -325,11 +325,11 @@ tail -f logs/hbase-*.log
 └── README.md
 \`\`\`
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto es de código abierto y está disponible bajo la licencia MIT.
 
-## ✨ Autor
+## Autor
 
-Proyecto de demostración académica para el curso de Bases de Datos NoSQL.
+Proyecto de demostración académica para el curso de Bases de Datos Distribuidas.
 \`\`\`
